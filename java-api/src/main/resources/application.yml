@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  error:
+    include-message: never
+spring:
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 30MB
+policy-service:
+  base-url: ${POLICY_SERVICE_URL:http://localhost:8000}
+  connect-timeout: 2s
+  read-timeout: 5s
+logging:
+  level:
+    com.marlabs.assessment: INFO

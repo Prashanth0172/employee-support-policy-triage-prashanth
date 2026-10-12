@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+.vscode/*.log
+**/target/
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+python-service/python-service/
+*.py[cod]
+Marlabs_GenAI_Spring_Boot_Candidate_Assessment.pdf
